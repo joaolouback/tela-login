@@ -1,104 +1,106 @@
-@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@600&display=swap');
 
-html {
-    height:100%;
-}
 
 *{
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-    color: #fff;
-    font-family: 'Poppins', sans-serif;
-    letter-spacing: 2px;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  color: #fff;
+  font-family: 'Poppins', sans-serif;
+  letter-spacing: 2px;
 }
 
 body{
-    background: linear-gradient(#5c1caa,#221760);
-    background-position: center;
-    background-repeat:no-repeat;
-    background-size: cover;
+  background: linear-gradient(#5c1caa,#221760);
+  background-position: center;
+  background-repeat:no-repeat;
+  background-size: cover;
+  height: 100vh;
+}
+
+h1{
+  color:#7b8fff;
 }
 
 .login-box {
-    width: 400px;
-    margin: 0 auto;
-    background: linear-gradient(#25225c, #1d1a1f);
-    padding: 2rem;
-    border-radius: 10px;
-    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;   
-    top: 30%;
-    left: 35%;
-    position:absolute;
+  width: 27em;
+  margin: 0 auto;
+  background: linear-gradient(#25225c, #1d1a1f);
+  padding: 2rem;
+  border-radius: 10px;
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;   
+  top: 30%;
+  left: 35%;
+  position:absolute;
 }
 
 .login-box h1 {
-    text-align: center;
-    margin-bottom: 2rem;
-    font-size: 35px;
+  text-align: center;
+  margin-bottom: 2rem;
+  font-size: 35px;
 }
 
 .user-box {
-    position: relative;
-  }
+  position: relative;
+}
 
 .user-box input {
-    width: 100%;
-    border: none;
-    border-bottom: 1px solid #8292b4;
-    outline: none;
-    background: transparent;
-    padding: 5px 0;
-    margin-bottom: 30px;
+  width: 100%;
+  border: none;
+  border-bottom: 1px solid #8292b4;
+  outline: none;
+  background: transparent;
+  padding: 5px 0;
+  margin-bottom: 30px;
 
 }
 
 .user-box label {
 
-    position: absolute;
-    top:-15px;
-    left: 0;
-    font-size: 16px;
-    color: #fff;
-    pointer-events: none;
-    transition: .5s;
+  position: absolute;
+  top:-15px;
+  left: 0;
+  font-size: 16px;
+  color: #fff;
+  pointer-events: none;
+  transition: .5s;
 }
 
 .user-box input:focus ~ label {
-  top: -20px;
-  color: #834fc2;
-  font-size: 12px;
+top: -20px;
+color: #834fc2;
+font-size: 12px;
 }
 
 
 .login-box form a {
-    position: relative;
-    display: inline-block;
-    padding: 10px 20px;
-    color: #8524fc;
-    font-size: 16px;
-    text-decoration: none;
-    text-transform: uppercase;
-    overflow: hidden;
-    transition: .5s;
-    margin-top: 20px;
-    letter-spacing: 4px
-  }
+  position: relative;
+  display: inline-block;
+  padding: 10px 20px;
+  color: #8524fc;
+  font-size: 16px;
+  text-decoration: none;
+  text-transform: uppercase;
+  overflow: hidden;
+  transition: .5s;
+  margin-top: 20px;
+  letter-spacing: 4px
+}
 
-  .login-box a:hover {
-    background: #5b1aac;
-    color: #fff;
-    border-radius: 2px;
-    box-shadow: 0 0 5px #5b1aac,
-                0 0 12px #5b1aac,
-                0 0 250px #5b1aac,
-                0 0 50px #5b1aac;
-  }
+.login-box a:hover {
+  background: #5b1aac;
+  color: #fff;
+  border-radius: 2px;
+  box-shadow: 0 0 5px #5b1aac,
+              0 0 12px #5b1aac,
+              0 0 250px #5b1aac,
+              0 0 50px #5b1aac;
+}
 
-  .login-box a span {
-    position: absolute;
-    display: block;
-  }
+.login-box a span {
+  position: absolute;
+  display: block;
+}
+
 
   
 
